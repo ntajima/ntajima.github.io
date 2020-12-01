@@ -1,6 +1,6 @@
 $(function() {
 	$.ajax({
-		url: 'http://twitch.heteml.net/test/tj/test-rss/rss.php',
+		url: 'rss.php',
 		xmlType: 'xml',
 		success: function(xml) {
 			var row = 0;
